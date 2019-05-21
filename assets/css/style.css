@@ -1,4 +1,6 @@
-body {
+html, body {
+    height: 100%;
+    margin: 0;
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -80,11 +82,31 @@ a {
     width: 95%;
     background-color: #fff;
     padding: 1%;
+    min-height: 100%;
+    margin-bottom: -50px;
+    
+}
 
+.bottomPort {
+    display:block; 
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    height: 700px; 
+    background-color: #fff;
+    padding: 1%;
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+
+.footer,
+.push {
+  height: 50px;
 }
 
 .copyright {
-    position: absolute;
     background-color: #666666;
     color: #ffffff;
     text-align: center;
@@ -95,7 +117,6 @@ a {
 }
 
 .tealBar {
-    position: absolute;
     background-color: #4aaaa5;
     width: 100%;
     height: 7px;
@@ -115,7 +136,7 @@ a {
 
 #background {
     width: 100%;
-    height: 100%;
+    height: 120%;
     z-index: -1;
     position: absolute;
     top: 0;
@@ -128,6 +149,7 @@ a {
     position: relative;
     text-align: center;
     color: white;
+    width: 50%;
 }
 
 .containerR {
@@ -136,21 +158,33 @@ a {
     position: relative;
     text-align: center;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    width: 50%;
 }
 
 .portTitle {
     position: absolute;
-    top: 50%;
+    top: 85%;
     left: 50%;
+    padding: 1%;
     transform: translate(-50%, -50%);
     background-color: #4aaaa5;
-    width: 17%;
     text-align: center;
-    padding: 8.2px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 88%;
 }
 
+#portPic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
 form {
     margin: 0%;
     width: 925px;
@@ -201,11 +235,6 @@ button {
     font-size: 15px;
 }
 
-footer {
-    position: relative;
-    float: bottom;
-    width: 100%;
-}
 
 @media screen and (max-width: 980px) {
 
@@ -225,6 +254,16 @@ footer {
     margin-left: 2.5%;
     padding: 1%;
     width: 55%;
+    }
+    .bottomPort{
+    display:block; 
+    align-content: left;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    margin-left: 2.5%;
+    padding: 1%;
+    width: 55%;
+    height: 200px;
     }
 }
 
@@ -254,6 +293,17 @@ footer {
         width: 98%;
     }
 
+    
+    .bottomPort{
+        display:block; 
+        margin-left: auto; 
+        margin-right: auto;
+        margin-bottom: 4%;
+        height: 700px;
+        width: 90%;
+    }
+
+
     #profilePic{
         display: block;
         margin-left: 2.5%;
@@ -262,8 +312,36 @@ footer {
     }
 
     #background{
-        height: 120%;
+        height: 135%;
     }
+
+    #portPic{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .containerL{
+        width: 50%;
+    }
+    .containerR{
+        width: 50%;
+    }
+
+    .portTitle{
+
+        display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 88%;
+            padding: 1%;
+        }
+
+        
+
 }
 
 
@@ -301,14 +379,39 @@ footer {
         width: 90%;
     }
 
+    .bottomPort{
+        display:block; 
+        margin-left: auto; 
+        margin-right: auto;
+        margin-bottom: 4%;
+        height: 600px;
+        width: 90%;
+    }
+
     #profilePic{
         display: block;
         margin-left: 5%;
         margin-right: 5%;
         width: 90%;
     }
-    
+
     #background{
-        height: 240%;
+        height: 200%;
+    }
+
+    #portPic{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 95%;
+        margin-top: 2%;
+    }
+
+    .portTitle{
+
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
     }
 }
