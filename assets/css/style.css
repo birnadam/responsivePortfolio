@@ -24,6 +24,7 @@ h2 {
     font-size: 25px;
     margin: 0% 0% 2% 3%;
     color: #4aaaa5;
+    margin-left: 7%;
 }
 
 h3 {
@@ -98,6 +99,19 @@ a {
     background-color: #fff;
     padding: 1%;
     min-height: 100%;
+    margin-bottom: -50px;
+}
+
+.bottomCont {
+    display:block; 
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    min-height: 35%;
+    background-color: #fff;
+    padding: 1%;
     margin-bottom: -50px;
 }
 
@@ -185,6 +199,7 @@ a {
     margin-top: 5%;
     margin-bottom: 5%;
 }
+
 form {
     margin: 0%;
     width: 925px;
@@ -247,23 +262,46 @@ button {
     }
 
     .bottom{
-    display:block; 
-    align-content: left;
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
-    margin-left: 2.5%;
-    padding: 1%;
-    width: 55%;
+        display:block; 
+        align-content: left;
+        margin-top: 2.5%;
+        margin-bottom: 2.5%;
+        margin-left: 2.5%;
+        padding: 1%;
+        width: 55%;
     }
+
     .bottomPort{
-    display:block; 
-    align-content: left;
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
-    margin-left: 2.5%;
-    padding: 1%;
-    width: 55%;
-    height: 200px;
+        display:block; 
+        align-content: left;
+        margin-top: 2.5%;
+        margin-bottom: 2.5%;
+        margin-left: 2.5%;
+        padding: 1%;
+        width: 55%;
+        height: 200px;
+    }
+
+    .bottomCont{
+        display:block; 
+        align-content: left;
+        margin-top: 2.5%;
+        margin-bottom: 2.5%;
+        margin-left: 2.5%;
+        padding: 1%;
+        width: 55%;
+        height: 10px;
+    }
+
+    form{
+        width: 450px;
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    input, textarea{
+        width: 450px;
     }
 }
 
@@ -293,7 +331,6 @@ button {
         width: 98%;
     }
 
-    
     .bottomPort{
         display:block; 
         margin-left: auto; 
@@ -303,6 +340,18 @@ button {
         width: 90%;
     }
 
+    .bottomCont{
+        display:block; 
+        align-content: left;
+        padding: 1%;
+        margin-top: 2.5%;
+        margin-bottom: 2.5%;
+        margin-left: auto; 
+        margin-right: auto;
+        padding: 0%;
+        width: 98%;
+        min-height: 60%;
+    }
 
     #profilePic{
         display: block;
@@ -327,21 +376,28 @@ button {
     .containerL{
         width: 50%;
     }
+
     .containerR{
         width: 50%;
     }
 
     .portTitle{
-
         display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 88%;
-            padding: 1%;
-        }
+        margin-left: auto;
+        margin-right: auto;
+        width: 88%;
+        padding: 1%;
+    }
+    form{
+        width: 90%;
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
-        
-
+    input, textarea{
+        width: 90%;
+    }
 }
 
 
@@ -388,6 +444,15 @@ button {
         width: 90%;
     }
 
+    .bottomCont{
+        display:block; 
+        margin-left: auto; 
+        margin-right: auto;
+        margin-bottom: 4%;
+        width: 90%;
+        min-height: 70%;
+    }
+
     #profilePic{
         display: block;
         margin-left: 5%;
@@ -408,8 +473,7 @@ button {
     }
 
     .portTitle{
-
-    display: block;
+        display: block;
         margin-left: auto;
         margin-right: auto;
         width: 80%;
