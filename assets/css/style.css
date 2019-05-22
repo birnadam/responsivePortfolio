@@ -83,7 +83,7 @@ a {
     width: 95%;
     background-color: #fff;
     padding: 1%;
-    min-height: 100%;
+    min-height: 50%;
     margin-bottom: -50px;
     
 }
@@ -279,7 +279,7 @@ button {
         margin-left: 2.5%;
         padding: 1%;
         width: 55%;
-        height: 200px;
+        min-height: 30%;
     }
 
     .bottomCont{
@@ -290,7 +290,6 @@ button {
         margin-left: 2.5%;
         padding: 1%;
         width: 55%;
-        height: 10px;
     }
 
     form{
@@ -336,7 +335,7 @@ button {
         margin-left: auto; 
         margin-right: auto;
         margin-bottom: 4%;
-        height: 700px;
+        min-height: 90%;
         width: 90%;
     }
 
@@ -440,7 +439,7 @@ button {
         margin-left: auto; 
         margin-right: auto;
         margin-bottom: 4%;
-        height: 600px;
+        min-height: 30%;
         width: 90%;
     }
 
